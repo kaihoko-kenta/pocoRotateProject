@@ -1,0 +1,15 @@
+.pic{
+	width:300px;
+	height:300px;
+	cursor: pointer;
+	-moz-transition: -moz-transform 1s linear;
+-webkit-transition: -webkit-transform 1s linear;
+-o-transition: -o-transform 1s linear;
+-ms-transition: -ms-transform 1s linear; 
+}
+.pic.active{
+	-moz-transform: rotateY(180deg);
+-webkit-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+-ms-transform: rotateY(180deg);
+}
