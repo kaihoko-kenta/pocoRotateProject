@@ -6,14 +6,14 @@ function rotate(key1,value1,value2){
 				setTimeout(function(){
 					$('.pic').attr(key1,value2);
 				},
-			420);
+			450);
 			return false;
 		}else{
 			$(this).attr('class','pic');
 				setTimeout(function(){
 					$('.pic').attr(key1,value1);
 				},
-			420);
+			450);
 			return true;
 		}
 	});
